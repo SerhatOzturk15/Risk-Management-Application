@@ -1,41 +1,57 @@
-  
 {
-    "questions": [
-      {
-        "id": 1,
-        "question": "I have previously put money in a risky investment.",
-        "choices": ["Strongly Agree", "Agree", "Neither Agree nor Disagree", "Disagree", "Strongly Disagree"],
-        "answer": -1
-      },
-      {
-        "id": 2,
-        "question": "I prefer my money to be safe from risk.",
-        "choices": ["Strongly Agree", "Agree", "Neither Agree nor Disagree", "Disagree", "Strongly Disagree"],
-        "answer": -1
-      },
-      {
-        "id": 3,
-        "question": "Your friends would say that you are cautious.",
-        "choices": ["Strongly Agree", "Agree", "Neither Agree nor Disagree", "Disagree", "Strongly Disagree"],
-        "answer": -1
-      }
-    ],
-    "riskLevels": [
-        {
-          "id": 1,
-          "riskTitle": "Risk Level 1 - Low",
-          "riskDetail": "A conservative set of investments designed to result in slow growth over time"
-        },
-        {
-            "id": 2,
-            "riskTitle": "Risk Level 2 - Medium",
-            "riskDetail": "A mix of investments designed to result in average growth over time"
-        },
-        {
-            "id": 3,
-            "riskTitle": "Risk Level 3 - High",
-            "riskDetail": "Stocks only. No bonds or cash"
-        }
-      ]
-
-  }
+  "questions": [
+    {
+      "id": 1,
+      "question": "I have previously put money in a risky investment.",
+      "choices": [
+        "Strongly Agree",
+        "Agree",
+        "Neither Agree nor Disagree",
+        "Disagree",
+        "Strongly Disagree"
+      ],
+      "answer": -1
+    },
+    {
+      "id": 2,
+      "question": "I prefer my money to be safe from risk.",
+      "choices": [
+        "Strongly Agree",
+        "Agree",
+        "Neither Agree nor Disagree",
+        "Disagree",
+        "Strongly Disagree"
+      ],
+      "answer": -1
+    },
+    {
+      "id": 3,
+      "question": "Your friends would say that you are cautious.",
+      "choices": [
+        "Strongly Agree",
+        "Agree",
+        "Neither Agree nor Disagree",
+        "Disagree",
+        "Strongly Disagree"
+      ],
+      "answer": -1
+    }
+  ],
+  "riskLevels": [
+    {
+      "id": 1,
+      "riskTitle": "Risk Level 1 - Low",
+      "riskDetail": "A conservative set of investments designed to result in slow growth over time"
+    },
+    {
+      "id": 2,
+      "riskTitle": "Risk Level 2 - Medium",
+      "riskDetail": "A mix of investments designed to result in average growth over time"
+    },
+    {
+      "id": 3,
+      "riskTitle": "Risk Level 3 - High",
+      "riskDetail": "Stocks only. No bonds or cash"
+    }
+  ]
+}

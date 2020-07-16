@@ -16,7 +16,6 @@ function App() {
           <Route exact path="/" component={StartContainer} />
           <Route exact path="/question/:id" component={QuestionContainer} />
           <Route exact path="/result" component={ResultContainer} />
-          />
         </Switch>
       </Router>
     </section>
